@@ -971,7 +971,7 @@ PNA4602 and related receivers
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$1" library="adafruit" deviceset="PNA460XM" device=""/>
+<part name="U3" library="adafruit" deviceset="PNA460XM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1006,7 +1006,7 @@ PNA4602 and related receivers
 <instance part="X8" gate="-2" x="129.54" y="109.22"/>
 <instance part="X9" gate="-1" x="129.54" y="96.52"/>
 <instance part="X9" gate="-2" x="129.54" y="91.44"/>
-<instance part="U$1" gate="G$1" x="30.48" y="55.88" rot="R270"/>
+<instance part="U3" gate="G$1" x="30.48" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1031,7 +1031,7 @@ PNA4602 and related receivers
 <wire x1="-12.7" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="60.96" x2="-30.48" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-12.7" y="60.96"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="45.72" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="40.64" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
@@ -1085,7 +1085,7 @@ PNA4602 and related receivers
 <wire x1="-12.7" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="40.64" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-12.7" y="40.64"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 <junction x="30.48" y="17.78"/>
 <pinref part="U1" gate="G$1" pin="GND1"/>
@@ -1204,7 +1204,7 @@ PNA4602 and related receivers
 </net>
 <net name="IR-OUT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
